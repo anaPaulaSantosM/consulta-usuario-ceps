@@ -3,7 +3,7 @@
 export function HomePage() {
     return (
     <>
-      <p>Hello world</p>
+      <p>Login is render</p>
     </>
   )
 }

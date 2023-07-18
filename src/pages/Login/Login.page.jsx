@@ -3,7 +3,7 @@
 export function LoginPage() {
     return (
     <>
-      <p>Hello world</p>
+      <p>App is render</p>
     </>
   )
 }
