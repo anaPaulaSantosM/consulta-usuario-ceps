@@ -1,10 +1,9 @@
 
-function App() {
+
+export function LoginPage() {
     return (
     <>
       <p>Hello world</p>
     </>
   )
 }
-
-export default App
