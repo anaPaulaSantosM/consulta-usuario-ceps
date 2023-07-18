@@ -1,10 +1,9 @@
 
-function App() {
+
+export function HomePage() {
     return (
     <>
       <p>Hello world</p>
     </>
   )
 }
-
-export default App
