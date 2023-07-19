@@ -1,6 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 export const FormLoginComponent = () => {
+
+    const navigate = useNavigate();
+
+    const redirectToLogin = () => {
+        navigate('/home')
+    }
+
     return (
-        <form>
+        <form onSubmit={redirectToLogin}>
             <div className="input-group">
                 <label htmlFor="email">E-mail</label>
                 <input type="email" id="email" placeholder="Digite seu email"/>
